@@ -7,7 +7,7 @@ viloyat= ReplyKeyboardMarkup(
             KeyboardButton(text="Farg'ona"),
 
         ],
-[
+        [
             KeyboardButton(text='Andijon'),
             KeyboardButton(text="Namangan"),
 
@@ -22,6 +22,24 @@ viloyat= ReplyKeyboardMarkup(
             KeyboardButton(text="Jizzax"),
 
         ],
+        [
+            KeyboardButton(text='Guliston'),
+            KeyboardButton(text="Qarshi"),
+        ],
+        [
+            KeyboardButton(text='Urganch'),
+            KeyboardButton(text="Termiz"),
+         ],
+         [
+            KeyboardButton(text='Nukus'),
+            KeyboardButton(text="Xiva"),
+
+        ],
+        [
+          KeyboardButton(text='👨🏻‍💻 Dasturchi')
+        ],
+
+
 
     ],
     resize_keyboard=True

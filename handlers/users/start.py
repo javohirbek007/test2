@@ -8,4 +8,4 @@ from loader import dp
 
 @dp.message_handler(CommandStart())
 async def bot_start(message: types.Message):
-    await message.answer( text= 'Viloyatlarni Tanlang',reply_markup=inline_menu,)
+    await message.answer(text= 'Viloyatlarni Tanlang',reply_markup=inline_menu)
