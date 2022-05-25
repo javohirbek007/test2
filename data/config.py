@@ -1,8 +1,8 @@
 from environs import Env
 
 # # environs kutubxonasidan foydalanish
-# env = Env()
-# env.read_env()
+env = Env()
+env.read_env()
 # kanalar = ['@chuqur_3mavsum_chuqur','@CHITTERS']
 # # .env fayl ichidan quyidagilarni o'qiymiz
 #
@@ -10,6 +10,6 @@ from environs import Env
 # ADMINS = env.list("ADMINS")  # adminlar ro'yxati
 # IP = env.str("ip")  # Xosting ip manzili
 import os
-BOT_TOKEN = str(os.environ.get('"BOT_TOKEN"'))
+BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))
 ADMINS = list(os.environ.get("ADMINS"))
 IP = str(os.environ.get("ip"))
