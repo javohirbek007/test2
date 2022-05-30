@@ -756,4 +756,3 @@ async def bot_echo(message: types.Message):
     await message.answer(text=f"👨🏻‍💻 Dasturchi - @JAVOHIR_NABIYEV \n\n\n\n➖➖➖➖➖➖➖➖➖")
 
 
-
