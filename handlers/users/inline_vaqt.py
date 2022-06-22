@@ -8,5 +8,4 @@ from loader import dp
 # Echo bot
 @dp.callback_query_handler(text='Vaqt')
 async def bot_echo(message: CallbackQuery):
-    await message.message.answer(text='Viloyatlarni tanlang',reply_markup=viloyat)
-
+    await message.message.answer(text='Viloyatlarni tanlang!', reply_markup=viloyat)
