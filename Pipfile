@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 aiogram = "~=2.14"
 environs = "~=8.0.0"
-requests = "~=2.27.1"
+requests = "~=2.18.4"
 [dev-packages]
 Flask = "*"
 
